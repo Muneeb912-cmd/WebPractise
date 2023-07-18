@@ -1,45 +1,80 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Form</title>
-</head>
-<body>
-    <h2 style="color: white; font-size: 50px">DukoWheels</h2>
-    <div class="container" id="container">
+    <head>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Montserrat:400,800" />
+        <link rel="stylesheet" href="style.css" />
 
-        <div class="form-container sign-in-container">
-            <form action="#">
-                <h1>Sign in</h1>
-
-                <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Password" />
-                <a href="#">Forgot your password?</a>
-                <button>Sign In</button>
-            </form>
+    </head>
+    <header>
+        <div>
+            <h1>
+                Page Title
+            </h1>
         </div>
-        <div class="overlay-container">
-            <div class="overlay">
-                <div class="overlay-panel overlay-left">
-                    <h1>Welcome Back!</h1>
-                    <p>To keep connected with us please login with your personal info</p>
-                    <button class="ghost" id="signIn">Sign In</button>
-                </div>
-                <div class="overlay-panel overlay-right">
-                    <h1>Hello, Friend!</h1>
-                    <p>Enter your personal details and start journey with us</p>
-                    <button class="ghost" id="signUp">Sign Up</button>
+        <div class="divider"></div>
+        <div style="margin-top: 18px;">
+            <a class="link" href="#">Home</a>
+            <a class="link" href="#">Contact</a>
+            <a class="link" href="#">About</a>
+        </div>
+        <div class="right">
+            <button>
+                Log Out
+            </button>
+        </div>
+    </header>
+    <body>
+        <h2 style="color: white; font-size: 50px">My Form</h2>
+        <div class="container" id="container">
+
+            <div class="form-container sign-in-container">
+                <form action="#">
+                    <h1>Sign in</h1>
+
+                    <input type="email" placeholder="Email" />
+                    <input type="password" placeholder="Password" />
+                    <a class="link" href="#">Forgot your password?</a>
+                    <button class="sign-in">Sign In</button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1>Welcome Back!</h1>
+                        <p>To keep connected with us please login with your
+                            personal info</p>
+                        <button class="ghost" id="signIn">Sign In</button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1>Hello, Friend!</h1>
+                        <p>Enter your personal details and start journey with us</p>
+                        <button class="ghost" id="signUp">Sign Up</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <br>
-    <br>
-    <h2 style="color: white; font-size: 10px">Powered by XYZ<br>All Rights Reserved to the Owner</h2>
-</body>
+        <br>
+        <br>
+        <h2 style="color: rgb(255, 245, 245); font-size: 12px">Powered by
+            XYZ<br>All Rights Reserved to the Owner</h2>
+    </body>
+    <footer>
+        <div>
+            <h3>
+                Page Title
+            </h3>            
+        </div>
+        <div class="divider"></div>
+        <div style="margin-top: 12px;">
+            <img src="/Assets/Icon1.png" alt="instagram" width="30" height="30">
+             Telegram
+        </div>
+        <div style="margin-top: 12px;margin-left: 25px;">
+            <img src="/Assets/Icon2.png" alt="instagram" width="30" height="30">
+             Instagram
+        </div>
+    </footer>
 </html>
-<head></head>
+    
